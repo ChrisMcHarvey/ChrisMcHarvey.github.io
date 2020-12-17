@@ -1817,7 +1817,7 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 70rem !important;
+  height: 50rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
@@ -1826,7 +1826,7 @@ ul.icons {
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
   #banner a {
-    color: #ce1b28; }
+    color: #dd8288; }
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
