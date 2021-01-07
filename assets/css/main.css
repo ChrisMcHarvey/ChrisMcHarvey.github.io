@@ -1811,13 +1811,13 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/EchoParkSunset_001.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 70rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
@@ -1825,8 +1825,8 @@ ul.icons {
   width: 100%; }
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
-  /* #banner a {
-    color: #dd8288; } */
+  #banner a {
+    color: #ce1b28; }
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -1977,18 +1977,18 @@ ul.icons {
     text-decoration: none; }
     #banner a:hover {
       color: #ffffff; }
-  #banner video {
-    -moz-transform: translateX(50%) translateY(50%);
+  #banner img {
+    /* -moz-transform: translateX(50%) translateY(50%);
     -webkit-transform: translateX(50%) translateY(50%);
     -ms-transform: translateX(50%) translateY(50%);
-    transform: translateX(50%) translateY(50%);
-    bottom: 50%;
+    transform: translateX(50%) translateY(50%); */
+    /* bottom: 50%; */
     height: auto;
     min-height: 100%;
     min-width: 100%;
     overflow: hidden;
     position: absolute;
-    right: 50%;
+    /* right: 50%; */
     width: auto; }
   #banner:before {
     -moz-transition: opacity 3s ease;
@@ -2010,7 +2010,6 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2025,7 +2024,7 @@ ul.icons {
     height: 30vh !important;
     min-height: 30vh; }
   @media screen and (max-width: 1280px) {
-    #banner video {
+    #banner img {
       display: none; } }
   @media screen and (max-width: 736px) {
     #banner {
@@ -2033,7 +2032,8 @@ ul.icons {
       min-height: 0;
       padding: 4rem 2rem 4rem 2rem; }
       #banner .inner {
-        width: 100%; }
+        width: 100%;
+      }
       #banner h1 {
         font-size: 1.75rem;
         margin-bottom: 0.5rem;
@@ -2418,7 +2418,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #111111;
+  background: #2C382E;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
@@ -2429,7 +2429,7 @@ body {
   width: 100%;
   z-index: 10001; }
   #header > .logo {
-    color: #ffffff;
+    color: #ffffffd8;
     font-size: 1rem;
     font-weight: 600;
     height: inherit;
@@ -2437,7 +2437,7 @@ body {
     padding: 0 1.25rem;
     text-decoration: none; }
   #header > nav > a {
-    color: inherit;
+    color: #ffffd8;
     display: inline-block;
     padding: 0 0.75rem;
     text-decoration: none; }
@@ -2676,8 +2676,8 @@ body {
 
 /* Menu */
 #menu {
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.9);
   -moz-transform: translateX(20rem);
   -webkit-transform: translateX(20rem);
   -ms-transform: translateX(20rem);
@@ -2820,3 +2820,14 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+/* #arrow {
+  display: block;
+} */
+
+#arrow i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 73px;
+}
