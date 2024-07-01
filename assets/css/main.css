@@ -701,7 +701,8 @@ table.alt tbody tr td {
   .highlights .content {
     border-radius: 4px;
     height: 100%;
-    padding: 3rem;
+    padding: 2rem;
+    padding-bottom: 0px;
     text-align: center; }
     .highlights .content .icon {
       font-size: 5rem; }
@@ -790,8 +791,13 @@ table.alt tbody tr td {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #ffffff;
+  background: #2C382E;
+  color: white;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+
+.highlights .content h3 {
+  color: white;
+}
 
 /* Testimonials */
 .testimonials {
@@ -1946,10 +1952,10 @@ ul.icons {
   #banner table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
   #banner .highlights .content {
-    background: #111111;
+    background: #2C382E;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
   #banner .testimonials .content {
-    background: #111111;
+    background: #2C382E;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
     #banner .testimonials .content .credit strong {
       color: #ce1b28; }
@@ -1968,8 +1974,15 @@ ul.icons {
     #banner > .inner > :last-child {
       margin-bottom: 0; }
   #banner h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     margin-bottom: 1rem; }
+  #banner h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-bottom: 10rem;
+  }
   #banner p {
     font-size: 1.5rem; }
   #banner a {
@@ -2058,10 +2071,10 @@ ul.icons {
 
 /* CTA */
 #cta {
-  background-color: #ce1b28;
+  background-color: #bd2a2a;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/MtTam_Crop.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2392,7 +2405,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    /* background-image: url(../../images/bg.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2419,7 +2432,7 @@ body {
   -ms-justify-content: space-between;
   justify-content: space-between;
   background: #2C382E;
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
   cursor: default;
   height: 3.25rem;
   left: 0;
@@ -2429,15 +2442,15 @@ body {
   width: 100%;
   z-index: 10001; }
   #header > .logo {
-    color: #ffffffd8;
-    font-size: 1rem;
-    font-weight: 600;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
     height: inherit;
     line-height: inherit;
     padding: 0 1.25rem;
     text-decoration: none; }
   #header > nav > a {
-    color: #ffffd8;
+    color: #ffffff;
     display: inline-block;
     padding: 0 0.75rem;
     text-decoration: none; }
@@ -2821,13 +2834,11 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 
-/* #arrow {
-  display: block;
-} */
-
 #arrow i {
   display: block;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
   width: 73px;
 }
